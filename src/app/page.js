@@ -268,9 +268,9 @@ export default function Home() {
               <img key={'asdfe'} className='p1 img1' src='/1-3_mask.jpg'/>
               <img key={'asdfee'}className='p1 img3a' src='/1-3_mask2.jpg'/>
               <svg className='p1 img3b' width="100" height="100" viewBox="0 0 4327 794" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path className='p1 path1' d="M93 121.467C398.279 153.955 1031.95 264.015 1425.13 356.381C1916.6 471.839 2543.31 861.697 2740.1 770.23C2936.89 678.763 3564.1 164.451 3791.67 121.467C4019.24 78.4826 3904.51 211.624 4079.8 175.947C4227.14 145.958 4262.63 65.4875 4322 31" stroke="white" stroke-width="19"/>
-                  <path className='p1 path1' d="M88 94.5C390.5 127 1018.4 237.1 1408 329.5C1895 445 2516 835 2711 743.5C2906 652 3527.5 137.5 3753 94.5C3978.5 51.5 3864.81 184.69 4038.5 149C4184.5 119 4219.67 38.5001 4278.5 4" stroke="white" stroke-width="8"/>
-                  <path className='p1 path1' d="M1 115.59C313.065 147.045 960.818 253.605 1362.74 343.034C1865.14 454.82 2452.24 864.114 2653.41 775.556C2854.58 686.998 3549.25 157.207 3781.88 115.59C4014.51 73.9727 3897.23 202.88 4076.41 168.338C4227.03 139.303 4263.31 61.3908 4324 28" stroke="white" stroke-width="8"/>
+                  <path className='p1 path1' d="M93 121.467C398.279 153.955 1031.95 264.015 1425.13 356.381C1916.6 471.839 2543.31 861.697 2740.1 770.23C2936.89 678.763 3564.1 164.451 3791.67 121.467C4019.24 78.4826 3904.51 211.624 4079.8 175.947C4227.14 145.958 4262.63 65.4875 4322 31" stroke="white"/>
+                  <path className='p1 path1' d="M88 94.5C390.5 127 1018.4 237.1 1408 329.5C1895 445 2516 835 2711 743.5C2906 652 3527.5 137.5 3753 94.5C3978.5 51.5 3864.81 184.69 4038.5 149C4184.5 119 4219.67 38.5001 4278.5 4" stroke="white" />
+                  <path className='p1 path1' d="M1 115.59C313.065 147.045 960.818 253.605 1362.74 343.034C1865.14 454.82 2452.24 864.114 2653.41 775.556C2854.58 686.998 3549.25 157.207 3781.88 115.59C4014.51 73.9727 3897.23 202.88 4076.41 168.338C4227.03 139.303 4263.31 61.3908 4324 28" stroke="white" />
               </svg>      
             </div>
             <div className='p1 place t'>안동역</div>
@@ -417,6 +417,8 @@ export default function Home() {
           <div className='p6 img n2'></div>
         </div>
       </div>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
     </>
   )
 }
