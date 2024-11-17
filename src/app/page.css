@@ -932,3 +932,20 @@ ion-icon {
   opacity: 0.5;
   transform: translateX(0vw);
 }
+
+.bungshe {
+  position: fixed;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  z-index: 101;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-aspect-ratio:14/8){
+  .bungshe {
+    display: flex;
+  }
+}

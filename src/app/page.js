@@ -179,7 +179,6 @@ export default function Home() {
         setRow2(true)
       } 
       if(isRow2) {
-        console.log(scrollX2)
         setScrollX2((pre) => {
           let newp = pre + (e.deltaY * 0.05); 
           if(newp < 0) { 
@@ -235,6 +234,9 @@ export default function Home() {
     <>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
       <div className='cxt' ref={ScrollRef}>
+        <div className='bungshe'>
+          <div className='b text'>이 페이지는 13:8 비율 및 Windows, Mac OS 환경에 최적화 되어있습니다 화면을 조정해주세요.</div>
+        </div>
         <div className='fp' >
           <div className='navCxt'>
             <div className='nav more'><ion-icon class='iconcolor' name="menu-outline"></ion-icon></div>
