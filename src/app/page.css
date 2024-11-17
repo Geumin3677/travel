@@ -949,3 +949,9 @@ ion-icon {
     display: flex;
   }
 }
+
+@media screen and (max-width: 800px), (max-height:500px) {
+  .bungshe {
+    display: flex;
+  }
+}
